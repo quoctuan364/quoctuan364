@@ -1,5 +1,5 @@
 # 💫 About Me:
- 💻 I am majoring in Information Systems<br> 🎤 But my heart always hums to the tunes.<br> 📫 How to reach me:Tuanisme362004@gmail.com<br> 👾 Fun fact: <br>🎶  Favorite music : Not Around
+ 💻 I am majoring in Information Systems<br> 🎤 But my heart always hums to the tunes.<br> 📫 How to reach me:Tuanisme362004@gmail.com<br> 👾 Nick name: I am Music <br>🎶  Favorite music : Not Around
 
 
 ## 🌐 Socials:
