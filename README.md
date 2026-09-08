@@ -1,27 +1,47 @@
-# 💫 About Me:
- 💻 I am majoring in Information Systems<br> 🎤 But my heart always hums to the tunes.<br> 📫 How to reach me:Tuanisme362004@gmail.com<br> 👾 Nick name: I am Music <br>🎶  Favorite music : Not Around
+<img src="./assets/hero.svg" width="100%" alt="Quốc Tuấn — Web & Mobile Developer. Frontend, Backend và Mobile." />
 
+# Xin chào, mình là Quốc Tuấn
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/xdnhsTpgHV) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/liltuan364) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/lnqtuan/https://www.pinterest.com/luongtuan362004/) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/https://www.pinterest.com/luongtuan362004/https://www.facebook.com/liltuan364) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/https://www.reddit.com/user/Patient-Way-9728/) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@https://www.facebook.com/liltuan364https://www.tiktok.com/@lnqtuan) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:lnqtuan362004@gmail.com) 
+Mình học **Hệ thống thông tin**, định hướng **Web & Mobile Developer**. Mình xây dựng giao diện với React/Next.js, ứng dụng di động với React Native/Expo và xử lý API, dữ liệu bằng TypeScript, Python và PostgreSQL.
 
+Mình quan tâm đến cách một tính năng đi từ giao diện đến backend: dễ sử dụng, phân quyền đúng và có kiểm thử. Ngoài lập trình, mình thích âm nhạc.
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=plastic&logo=csharp&logoColor=white) 
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) 
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white) 
-![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=plastic&logo=mysql&logoColor=white)
+**[Xem BookVerse AI](https://github.com/quoctuan364/bookverse-ai)** · **[Các repository của mình](https://github.com/quoctuan364?tab=repositories)**
 
+## Công nghệ mình đang sử dụng
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+| Mảng | Công nghệ trong dự án |
+| :--- | :--- |
+| **Frontend** | React · Next.js · TypeScript · Tailwind CSS |
+| **Mobile** | React Native · Expo |
+| **Backend & dữ liệu** | Next.js Server Actions/API · FastAPI · PostgreSQL · Prisma |
+| **AI ứng dụng** | Gợi ý sách · RAG · pandas · scikit-learn |
+| **Kiểm thử & công cụ** | Git · Docker · Playwright · pytest · Node.js test runner |
 
----
-[![](https://visitcount.itsvg.in/api?id=quoctuan364&icon=0&color=0)](https://visitcount.itsvg.in)
+## Dự án nổi bật
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<a href="https://github.com/quoctuan364/bookverse-ai"><img src="./assets/bookverse.svg" width="100%" alt="BookVerse AI — đồ án tốt nghiệp về nền tảng sách kết hợp Web, Mobile và AI. Xem mã nguồn." /></a>
+
+**BookVerse AI** kết hợp khám phá sách, đọc Ebook, hội viên, chợ sách và trợ lý AI trong một hệ thống.
+
+- **Web:** catalog/tìm kiếm, trình đọc, giỏ hàng, quản lý hội viên và giao diện quản trị theo vai trò.
+- **Mobile:** ứng dụng Expo kết nối API cho catalog, đọc thử và các tính năng demo.
+- **Backend & AI:** PostgreSQL/Prisma, dịch vụ gợi ý FastAPI, chatbot RAG, kiểm soát quyền truy cập và fallback.
+- **Kiểm chứng:** bộ unit test TypeScript đạt **272/272** trên workspace nguồn ngày **08/09/2026**; hướng dẫn chạy và giới hạn kiểm chứng được ghi trong repository.
+
+> Đây là đồ án: thanh toán là Sandbox; đăng nhập/thanh toán mobile còn mô phỏng. Dữ liệu demo không phải hành vi người dùng thật. Chưa có bằng chứng Hybrid vượt baseline.
+
+**[Mã nguồn](https://github.com/quoctuan364/bookverse-ai)** · **[Kiến trúc](https://github.com/quoctuan364/bookverse-ai/blob/main/docs/DEFENSE_ARCHITECTURE.md)** · **[Chạy demo](https://github.com/quoctuan364/bookverse-ai/blob/main/docs/INSTALL_CLEAN_MACHINE.md)** · **[Báo cáo & phạm vi](https://github.com/quoctuan364/bookverse-ai/blob/main/docs/BAN_DANG_GITHUB.md)**
+
+## Các dự án khác
+
+| Dự án | Chủ đề |
+| :--- | :--- |
+| [Customer Segmentation](https://github.com/quoctuan364/customer-segmentation-kmeans-streamlit) | Phân cụm khách hàng với K-Means, Hierarchical Clustering và Streamlit. |
+| [Diabetes Prediction](https://github.com/quoctuan364/diabetes-prediction-streamlit) | Dự án học tập về machine learning và ứng dụng Streamlit. |
+
+## Kết nối
+
+Mình muốn phát triển theo hướng **Web & Mobile**, làm cả giao diện và backend. Bạn có thể xem mã nguồn và cách chạy từng dự án ở các liên kết bên trên.
+
+[Email](mailto:Tuanisme362004@gmail.com) · [GitHub](https://github.com/quoctuan364) · [Facebook](https://www.facebook.com/liltuan364) · [Instagram](https://www.instagram.com/lnqtuan/)

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Quốc Tuấn — Web &amp; Mobile Developer</title><desc id="desc">Banner xanh đen, giao diện web, điện thoại và khối dữ liệu phối cảnh 3D.</desc>
+<style>.float {animation:float 6s ease-in-out infinite} @keyframes float {0%,100% {transform:translateY(0)} 50% {transform:translateY(-6px)}} @media (prefers-reduced-motion:reduce) {.float {animation:none}}</style><defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#090f1c"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#4c55ba" stop-opacity=".4"/><stop offset="1" stop-color="#4c55ba" stop-opacity="0"/></radialGradient>
+<linearGradient id="panel" x2="1" y2="1"><stop stop-color="#263659"/><stop offset="1" stop-color="#142039"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#85ecd8"/><stop offset="1" stop-color="#aeb8ff"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#9caee8" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1200" height="430" rx="24" fill="url(#bg)"/><rect width="1200" height="430" rx="24" fill="url(#grid)"/><ellipse cx="942" cy="185" rx="320" ry="280" fill="url(#glow)"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<rect x="56" y="56" width="37" height="4" rx="2" fill="#85ecd8"/><text x="106" y="63" fill="#aebcd4" font-size="15" letter-spacing="3">QUOCTUAN364 / DEVELOPER</text>
+<text x="52" y="164" fill="#f3f6ff" font-size="72" font-weight="700" letter-spacing="-3">Quốc Tuấn.</text>
+<text x="56" y="215" fill="url(#accent)" font-size="33" font-weight="500">Web &amp; Mobile Developer</text>
+<text x="57" y="258" fill="#b3c0d7" font-size="20">Từ giao diện đến API và dữ liệu.</text>
+<g fill="#d6dff1" font-size="15" font-weight="600" letter-spacing="1">
+<rect x="56" y="308" width="131" height="38" rx="19" fill="#19263c" stroke="#334560"/><text x="76" y="333">FRONTEND</text>
+<rect x="199" y="308" width="126" height="38" rx="19" fill="#19263c" stroke="#334560"/><text x="221" y="333">BACKEND</text>
+<rect x="337" y="308" width="112" height="38" rx="19" fill="#19263c" stroke="#334560"/><text x="363" y="333">MOBILE</text></g>
+<text x="57" y="391" fill="#8193b3" font-size="14" letter-spacing="1">REACT · NEXT.JS · REACT NATIVE · FASTAPI</text></g>
+<g fill="none" stroke="#374b72" stroke-width="1.2"><path d="M670 339 908 413 1157 331 919 258Z"/><path d="M703 349 923 276M748 363 971 291M794 378 1018 306M838 391 1067 321" opacity=".5"/></g>
+<g transform="translate(698 97) skewY(-8)">
+<rect x="9" y="12" width="316" height="224" rx="15" fill="#070c17"/><rect width="316" height="224" rx="15" fill="url(#panel)" stroke="#6177ad" stroke-width="1.5"/>
+<path d="M0 35H316" stroke="#425578"/><circle cx="18" cy="18" r="4" fill="#f4abaf"/><circle cx="32" cy="18" r="4" fill="#e7d899"/><circle cx="46" cy="18" r="4" fill="#85ecd8"/>
+<rect x="19" y="54" width="59" height="149" rx="7" fill="#101c30"/><g fill="#3a5074"><rect x="29" y="68" width="38" height="5" rx="2"/><rect x="29" y="87" width="28" height="5" rx="2"/><rect x="29" y="106" width="32" height="5" rx="2"/></g>
+<rect x="95" y="55" width="200" height="68" rx="8" fill="#344776"/><rect x="111" y="71" width="101" height="8" rx="4" fill="#b6c6fb"/><rect x="111" y="89" width="156" height="5" rx="2" fill="#758ab8"/><rect x="111" y="103" width="53" height="9" rx="4" fill="#85ecd8"/>
+<rect x="95" y="138" width="91" height="65" rx="8" fill="#233c52"/><rect x="199" y="138" width="96" height="65" rx="8" fill="#343458"/>
+<path d="m109 184 17-17 17 7 24-22" fill="none" stroke="#85ecd8" stroke-width="3" stroke-linecap="round"/>
+<g fill="#aeb8ff"><rect x="213" y="175" width="12" height="16" rx="2"/><rect x="234" y="160" width="12" height="31" rx="2"/><rect x="255" y="151" width="12" height="40" rx="2"/></g></g>
+<g class="float"><g transform="translate(993 173) rotate(10)"><rect x="7" y="8" width="112" height="197" rx="20" fill="#070b14"/><rect width="112" height="197" rx="20" fill="#101a2b" stroke="#8294c1" stroke-width="2"/><rect x="9" y="12" width="94" height="174" rx="13" fill="#1c2d48"/>
+<rect x="35" y="16" width="43" height="6" rx="3" fill="#0c1321"/><rect x="20" y="39" width="56" height="6" rx="3" fill="#d9e4ff"/><rect x="20" y="56" width="72" height="55" rx="8" fill="#50679b"/>
+<path d="m44 75-7 8 7 8m23-16 7 8-7 8m-9-20-5 24" stroke="#b6ffed" stroke-width="2" fill="none"/><rect x="20" y="122" width="64" height="5" rx="2" fill="#7f94b7"/><rect x="20" y="135" width="48" height="5" rx="2" fill="#526d92"/><rect x="20" y="157" width="72" height="16" rx="8" fill="#85ecd8"/></g>
+</g><g transform="translate(688 288)" stroke="#80d5cb" stroke-width="1.1"><path d="M0 29 49 0 99 29 49 58Z" fill="#34546a"/><path d="M0 29V82L49 112V58Z" fill="#173d49"/><path d="M49 58 99 29V82L49 112Z" fill="#225665"/><path d="m11 48 27 16m-27 0 27 16m24-13 25-15m-25 31 25-15" opacity=".6"/></g></svg>
