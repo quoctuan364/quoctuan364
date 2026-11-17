@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="215" viewBox="0 0 860 215" role="img" aria-label="Aura Core Skill Constellation">
+  <style>
+    .orbit-cw { animation: spinCW 24s linear infinite; transform-origin: 430px 112px; }
+    .orbit-ccw { animation: spinCCW 18s linear infinite; transform-origin: 430px 112px; }
+    .core-pulse { animation: pulseCore 3s ease-in-out infinite; transform-origin: 430px 112px; }
+    .signal-flow { stroke-dasharray: 8 10; animation: dashFlow 2.5s linear infinite; }
+    .node-hover { animation: floatNode 3.5s ease-in-out infinite alternate; }
+    .node-hover-2 { animation: floatNode 3.5s ease-in-out 1.5s infinite alternate; }
+
+    @keyframes spinCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    @keyframes pulseCore { 0%, 100% { transform: scale(1); opacity: 0.9; } 50% { transform: scale(1.12); opacity: 1; } }
+    @keyframes dashFlow { from { stroke-dashoffset: 36; } to { stroke-dashoffset: 0; } }
+    @keyframes floatNode { 0% { transform: translateY(-3px); } 100% { transform: translateY(3px); } }
+  </style>
+
+  <defs>
+    <radialGradient id="coreGlow" cx="50%" cy="52%" r="40%">
+      <stop offset="0%" stop-color="#a277ff" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#61ffca" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0d0b18" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coreGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#61ffca"/>
+      <stop offset="50%" stop-color="#a277ff"/>
+      <stop offset="100%" stop-color="#f694ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="215" rx="16" fill="#0d0b18" stroke="#2e264d" stroke-width="1.5"/>
+  <rect width="860" height="215" rx="16" fill="url(#coreGlow)"/>
+
+  <!-- Header -->
+  <text x="32" y="32" fill="#a277ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.2">NEURAL CONSTELLATION // CORE TECH ECOSYSTEM</text>
+  <text x="685" y="32" fill="#61ffca" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">SYNC: 100% ACTIVE</text>
+
+  <!-- Connecting Energy Lines from Core (430, 112) to Left & Right Nodes -->
+  <g fill="none" stroke-width="1.5" class="signal-flow">
+    <path d="M 430 112 L 155 68" stroke="#61ffca"/>
+    <path d="M 430 112 L 125 122" stroke="#a277ff"/>
+    <path d="M 430 112 L 165 174" stroke="#f694ff"/>
+    <path d="M 430 112 L 705 68" stroke="#ffca85"/>
+    <path d="M 430 112 L 735 122" stroke="#61ffca"/>
+    <path d="M 430 112 L 695 174" stroke="#a277ff"/>
+  </g>
+
+  <!-- Central Rotating Orbital Rings -->
+  <circle cx="430" cy="112" r="68" fill="none" stroke="#2e264d" stroke-width="1.2" stroke-dasharray="6 6" class="orbit-cw"/>
+  <circle cx="430" cy="112" r="48" fill="none" stroke="#a277ff" stroke-width="1.2" stroke-dasharray="18 10" stroke-opacity="0.55" class="orbit-ccw"/>
+
+  <!-- Orbiting Electrons -->
+  <g class="orbit-cw">
+    <circle cx="430" cy="44" r="4" fill="#61ffca"/>
+    <circle cx="430" cy="180" r="4" fill="#f694ff"/>
+  </g>
+  <g class="orbit-ccw">
+    <circle cx="382" cy="112" r="3.5" fill="#ffca85"/>
+    <circle cx="478" cy="112" r="3.5" fill="#a277ff"/>
+  </g>
+
+  <!-- Central Core Reactor -->
+  <g class="core-pulse">
+    <circle cx="430" cy="112" r="28" fill="#141124" stroke="url(#coreGrad)" stroke-width="2.5"/>
+    <text x="430" y="110" text-anchor="middle" fill="#edecee" font-family="JetBrains Mono, monospace" font-size="10" font-weight="800">QUOCTUAN</text>
+    <text x="430" y="122" text-anchor="middle" fill="#61ffca" font-family="JetBrains Mono, monospace" font-size="8.5" font-weight="700">CORE OS</text>
+  </g>
+
+  <!-- Left Tech Satellite Nodes -->
+  <g class="node-hover" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">
+    <rect x="48" y="50" width="136" height="32" rx="8" fill="#141124" stroke="#61ffca" stroke-width="1.4"/>
+    <text x="116" y="70" text-anchor="middle" fill="#61ffca">React · Next.js</text>
+
+    <rect x="32" y="104" width="136" height="32" rx="8" fill="#141124" stroke="#a277ff" stroke-width="1.4"/>
+    <text x="100" y="124" text-anchor="middle" fill="#a277ff">TypeScript · JS</text>
+
+    <rect x="56" y="156" width="142" height="32" rx="8" fill="#141124" stroke="#f694ff" stroke-width="1.4"/>
+    <text x="127" y="176" text-anchor="middle" fill="#f694ff">React Native</text>
+  </g>
+
+  <!-- Right Tech Satellite Nodes -->
+  <g class="node-hover-2" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700">
+    <rect x="676" y="50" width="136" height="32" rx="8" fill="#141124" stroke="#ffca85" stroke-width="1.4"/>
+    <text x="744" y="70" text-anchor="middle" fill="#ffca85">Node.js · FastAPI</text>
+
+    <rect x="692" y="104" width="136" height="32" rx="8" fill="#141124" stroke="#61ffca" stroke-width="1.4"/>
+    <text x="760" y="124" text-anchor="middle" fill="#61ffca">Python · AI / RAG</text>
+
+    <rect x="662" y="156" width="146" height="32" rx="8" fill="#141124" stroke="#a277ff" stroke-width="1.4"/>
+    <text x="735" y="176" text-anchor="middle" fill="#a277ff">Postgres · SQLite</text>
+  </g>
+</svg>
