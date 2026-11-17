@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="./assets/studio-scene.svg?v=aura1" alt="Quốc Tuấn — Aura Late Night Coding Studio" />
+  <img width="100%" src="./assets/studio-scene.svg?v=aura2" alt="Quốc Tuấn — Aura Late Night Coding Studio" />
 
   <br /><br />
 
@@ -16,14 +16,83 @@
 <br />
 
 <div align="center">
-  <img width="100%" src="./assets/cyber-radar.svg?v=aura1" alt="Aura Cyber Radar, Live Audio Spectrum & Terminal Deck" />
+  <img width="100%" src="./assets/cyber-radar.svg?v=aura2" alt="Aura Cyber Radar, Live Audio Spectrum & Terminal Deck" />
 </div>
 
 <br />
 
+## Live Arcade Zone — Bug Hunter & Space Defense
+
 <div align="center">
-  <img width="100%" src="./assets/aura-arcade.svg?v=aura1" alt="Aura Pac-Man Bug Hunter Arcade" />
+  <img width="100%" src="./assets/aura-arcade.svg?v=aura2" alt="Aura Pac-Man Bug Hunter Live Eating & Score" />
+  <br /><br />
+  <img width="100%" src="./assets/space-shooter.svg?v=aura2" alt="Space Invaders CI-CD Production Defense" />
 </div>
+
+<br />
+
+## Interactive Playground — Khu Vực Tương Tác (Click Để Nghịch)
+
+> **Thử thách nhỏ:** Bạn có thể bấm trực tiếp vào các hộp dưới đây ngay trên trang GitHub này!
+
+<details>
+  <summary><strong>[GAME 01] 👾 Bắt Con Bug Đang Chạy Trốn (Bấm vào nó xem bạn tóm được không!)</strong></summary>
+  <br />
+  <div align="center">
+    <p>Con Bug <code>NullPointerException</code> vừa né chuột của bạn và nhảy sang góc phải rồi! Đuổi theo bấm tiếp:</p>
+    <details>
+      <summary align="right"><strong>💨 [BUG: Hụt rồi nhé! Bấm vào góc phải này cơ!]</strong></summary>
+      <br />
+      <div align="left">
+        <p>Nó lại phóng sang góc trái rồi! Nhấp phát cuối để tóm gọn:</p>
+        <details>
+          <summary><strong>⚡ [BUG: Lêu lêu! Đố bắt được!]</strong></summary>
+          <br />
+          <div align="center">
+            <img src="https://img.shields.io/badge/VICTORY!-B%E1%BA%A0N_%C4%90%C3%83_DI%E1%BB%86T_G%E1%BB%8CN_BUG_(%2B999_XP)-61FFCA?style=for-the-badge&labelColor=151226" />
+            <p><em>Chúc mừng! Hệ thống đã đạt trạng thái <strong>0 Runtime Errors</strong> nhờ phản xạ của bạn.</em></p>
+          </div>
+        </details>
+      </div>
+    </details>
+  </div>
+</details>
+
+<br />
+
+<details>
+  <summary><strong>[GAME 02] 🎁 Mở Rương Kho Báu Bí Mật Của Developer (Lootbox Gacha)</strong></summary>
+  <br />
+  <div align="center">
+    <p>Chọn 1 trong 3 rương dưới đây để nhận vật phẩm Buff năng lượng:</p>
+    <details>
+      <summary><strong>📦 Rương Số 01 — Vật phẩm Hiếm (Rare)</strong></summary>
+      <p><img src="https://img.shields.io/badge/ITEM_UNLOCKED-LY_C%C3%80_PH%C3%8A_ESPRESSO_B%E1%BA%A4T_T%E1%BB%AD_(%2B200%25_T%E1%BB%90C_%C4%90%E1%BB%98_CODE)-A277FF?style=for-the-badge&labelColor=0D0B18" /></p>
+    </details>
+    <details>
+      <summary><strong>📦 Rương Số 02 — Vật phẩm Sử Thi (Epic)</strong></summary>
+      <p><img src="https://img.shields.io/badge/ITEM_UNLOCKED-B%C3%80N_PH%C3%8DM_C%C6%A0_CUSTOM_KH%C3%94NG_G%C3%95_SAI_CH%C3%8DNH_T%E1%BA%A2-61FFCA?style=for-the-badge&labelColor=0D0B18" /></p>
+    </details>
+    <details>
+      <summary><strong>📦 Rương Số 03 — Vật phẩm Huyền Thoại (Legendary)</strong></summary>
+      <p><img src="https://img.shields.io/badge/ITEM_UNLOCKED-DEPLOY_TH%E1%BA%B2NG_L%C3%8AN_PRODUCTION_TH%E1%BB%A8_6_KH%C3%94NG_L%E1%BB%96I-FFCA85?style=for-the-badge&labelColor=0D0B18" /></p>
+    </details>
+  </div>
+</details>
+
+<br />
+
+<details>
+  <summary><strong>[GAME 03] 🚨 NÚT ĐỎ CẤM BẤM: Do Not Touch (Xóa Sạch Production Database)</strong></summary>
+  <br />
+  <div align="center">
+    <pre>
+[WARNING] Initiating command: sudo rm -rf /production-db/*
+[██████████████████████████████] 100% Completed...
+    </pre>
+    <p><img src="https://img.shields.io/badge/JUST_KIDDING!-DATABASE_V%E1%BA%AAN_AN_TO%C3%80N_TRONG_SQLITE_WAL_MODE-F694FF?style=for-the-badge&labelColor=0D0B18" /></p>
+  </div>
+</details>
 
 <br />
 
@@ -37,29 +106,10 @@
 
 <br />
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h4>Frontend & Mobile</h4>
-      <p>Thiết kế giao diện chuẩn xác từng pixel, chuyển động mượt trên cả trình duyệt và thiết bị di động với <code>React</code>, <code>Next.js</code>, <code>Tailwind CSS</code> và <code>Expo</code>.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>Backend & Database</h4>
-      <p>Xây dựng RESTful API gọn nhẹ, tối ưu truy vấn và bảo toàn dữ liệu với <code>Node.js</code>, <code>FastAPI</code>, <code>PostgreSQL</code> và <code>SQLite</code>.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>AI & Automation</h4>
-      <p>Tích hợp mô hình ngôn ngữ lớn (LLM), hệ thống truy xuất tri thức <code>RAG</code>, luồng <code>Multi-Agent</code> và phân tích dữ liệu bằng <code>Python</code>.</p>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-## Contribution Snake Arcade
+## Contribution Snake Arcade (Live Commit Eating & Score)
 
 <div align="center">
-  <img width="100%" src="./assets/snake-matrix.svg?v=aura1" alt="Aura Contribution Snake Arcade" />
+  <img width="100%" src="./assets/snake-matrix.svg?v=aura2" alt="Aura Contribution Snake Live Eating" />
 </div>
 
 <br />
