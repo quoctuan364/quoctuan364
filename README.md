@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="./assets/hero.svg" alt="Quốc Tuấn — Full-Stack Engineer & AI Product Builder" />
+  <img width="100%" src="./assets/hero.svg?v=2" alt="Quốc Tuấn — Full-Stack Engineer & AI Product Builder" />
 
   <br />
 
