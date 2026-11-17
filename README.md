@@ -15,17 +15,13 @@
 
 <br />
 
-## About Me
+<div align="center">
+  <img width="100%" src="./assets/cyber-radar.svg" alt="Cyber Radar, Live Audio Spectrum & Terminal Deck" />
+</div>
 
-Mình là **Quốc Tuấn** — một người thích ngồi code vào ban đêm, biến những bài toán phức tạp thành giao diện mượt mà và hệ thống chạy ổn định.
+<br />
 
-- **Triết lý làm sản phẩm:** Ưu tiên sự tối giản, tốc độ phản hồi nhanh và trải nghiệm người dùng tự nhiên.
-- **Hướng phát triển:** Kết hợp giữa **Web / Mobile hiện đại** (`React`, `Next.js`, `React Native`) với **Hệ thống Backend & AI thực chiến** (`Node.js`, `FastAPI`, `PostgreSQL`, `SQLite`).
-- **Thói quen mỗi ngày:** Một ly cà phê nóng, nhạc Lo-fi và liên tục thử nghiệm các kiến trúc phần mềm mới.
-
----
-
-## Tech Stack & Tools
+## Tech Stack & Craft
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,python,java,cs,cpp,html,css&theme=dark" alt="Languages" />
@@ -52,9 +48,17 @@ Mình là **Quốc Tuấn** — một người thích ngồi code vào ban đêm
   </tr>
 </table>
 
----
+<br />
 
-## GitHub Activity
+## Contribution Snake Arcade
+
+<div align="center">
+  <img width="100%" src="./assets/snake-matrix.svg" alt="Animated Contribution Snake Arcade" />
+</div>
+
+<br />
+
+## Activity & Streak
 
 <div align="center">
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=quoctuan364&theme=gruvbox" alt="GitHub Stats" />
