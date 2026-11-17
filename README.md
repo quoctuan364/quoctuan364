@@ -1,22 +1,28 @@
 <div align="center">
-  <img width="100%" src="./assets/studio-scene.svg" alt="Quốc Tuấn — Late Night Coding Studio" />
+  <img width="100%" src="./assets/studio-scene.svg?v=aura1" alt="Quốc Tuấn — Aura Late Night Coding Studio" />
 
   <br /><br />
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=900&color=FB923C&center=true&vCenter=true&repeat=true&width=760&lines=Building+fast%2C+minimal+%26+thoughtful+digital+products.;Web+%26+Mobile+Engineering+%E2%80%94+React+%C2%B7+Next.js+%C2%B7+React+Native;Backend+%26+Data+Systems+%E2%80%94+Node.js+%C2%B7+FastAPI+%C2%B7+PostgreSQL;Always+learning%2C+always+shipping+clean+code." alt="Studio Subtitle" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=800&color=61FFCA&center=true&vCenter=true&repeat=true&width=780&lines=Building+fast%2C+minimal+%26+thoughtful+digital+products.;Web+%26+Mobile+Engineering+%E2%80%94+React+%C2%B7+Next.js+%C2%B7+React+Native;Backend+%26+AI+Systems+%E2%80%94+Node.js+%C2%B7+FastAPI+%C2%B7+PostgreSQL+%C2%B7+SQLite;Aura+Dark+Aesthetics+%E2%80%94+Clean+Code+%26+High+Performance." alt="Aura Subtitle" />
 
   <p>
-    <a href="mailto:Tuanisme362004@gmail.com"><img src="https://img.shields.io/badge/Email-Tuanisme362004%40gmail.com-18181B?style=for-the-badge&logo=gmail&logoColor=FB923C&labelColor=09090B" alt="Email" /></a>
-    <a href="https://www.instagram.com/lnqtuan/"><img src="https://img.shields.io/badge/Instagram-%40lnqtuan-18181B?style=for-the-badge&logo=instagram&logoColor=FB923C&labelColor=09090B" alt="Instagram" /></a>
-    <a href="https://github.com/quoctuan364?tab=repositories"><img src="https://img.shields.io/badge/Workspace-All_Repositories-18181B?style=for-the-badge&logo=github&logoColor=FAFAFA&labelColor=09090B" alt="Repositories" /></a>
-    <img src="https://komarev.com/ghpvc/?username=quoctuan364&label=Visitors&color=F97316&style=for-the-badge&labelColor=09090B" alt="Visitors" />
+    <a href="mailto:Tuanisme362004@gmail.com"><img src="https://img.shields.io/badge/EMAIL-TUANISME362004%40GMAIL.COM-151226?style=for-the-badge&logo=gmail&logoColor=61FFCA&labelColor=0D0B18" alt="Email" /></a>
+    <a href="https://www.instagram.com/lnqtuan/"><img src="https://img.shields.io/badge/INSTAGRAM-%40LNQTUAN-151226?style=for-the-badge&logo=instagram&logoColor=F694FF&labelColor=0D0B18" alt="Instagram" /></a>
+    <a href="https://github.com/quoctuan364?tab=repositories"><img src="https://img.shields.io/badge/WORKSPACE-ALL_REPOSITORIES-151226?style=for-the-badge&logo=github&logoColor=A277FF&labelColor=0D0B18" alt="Repositories" /></a>
+    <img src="https://komarev.com/ghpvc/?username=quoctuan364&label=VISITORS&color=A277FF&style=for-the-badge&labelColor=0D0B18" alt="Visitors" />
   </p>
 </div>
 
 <br />
 
 <div align="center">
-  <img width="100%" src="./assets/cyber-radar.svg" alt="Cyber Radar, Live Audio Spectrum & Terminal Deck" />
+  <img width="100%" src="./assets/cyber-radar.svg?v=aura1" alt="Aura Cyber Radar, Live Audio Spectrum & Terminal Deck" />
+</div>
+
+<br />
+
+<div align="center">
+  <img width="100%" src="./assets/aura-arcade.svg?v=aura1" alt="Aura Pac-Man Bug Hunter Arcade" />
 </div>
 
 <br />
@@ -53,16 +59,18 @@
 ## Contribution Snake Arcade
 
 <div align="center">
-  <img width="100%" src="./assets/snake-matrix.svg" alt="Animated Contribution Snake Arcade" />
+  <img width="100%" src="./assets/snake-matrix.svg?v=aura1" alt="Aura Contribution Snake Arcade" />
 </div>
 
 <br />
 
-## Activity & Streak
+## Activity & Telemetry
 
 <div align="center">
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=quoctuan364&theme=gruvbox" alt="GitHub Stats" />
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=quoctuan364&theme=gruvbox" alt="Top Languages" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=quoctuan364&theme=aura_dark" alt="GitHub Stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=quoctuan364&theme=aura_dark" alt="Top Languages" />
   <br />
-  <img src="https://streak-stats.demolab.com?user=quoctuan364&theme=gruvbox_duo&hide_border=true&background=09090B&ring=F97316&fire=FB923C&currStreakLabel=FED7AA" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=quoctuan364&theme=aura_dark&hide_border=true&background=0D0B18&ring=A277FF&fire=61FFCA&currStreakLabel=F694FF" alt="GitHub Streak" />
+  <br />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=quoctuan364&bg_color=0d0b18&color=a277ff&line=61ffca&point=f694ff&area=true&hide_border=true" alt="Contribution Graph" />
 </div>
