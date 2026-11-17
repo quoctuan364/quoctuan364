@@ -1,76 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-label="Quốc Tuấn — Interactive Studio Scene">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-label="Quốc Tuấn — Aura Studio Scene">
   <style>
     .bg-star { animation: twinkle 4s ease-in-out infinite; }
     .bg-star-2 { animation: twinkle 5.5s ease-in-out 1.5s infinite; }
-    .meteor { stroke-dasharray: 90 900; animation: shoot 7s linear infinite; }
-    .meteor-2 { stroke-dasharray: 70 900; animation: shoot 9.5s linear 3.2s infinite; }
-    .head-bob { animation: bob 3.6s ease-in-out infinite; transform-origin: 830px 230px; }
-    .hand-type-l { animation: typeL 0.45s ease-in-out infinite alternate; }
-    .hand-type-r { animation: typeR 0.4s ease-in-out infinite alternate; }
-    .cat-tail { animation: tailWag 2.8s ease-in-out infinite; transform-origin: 1055px 348px; }
+    .meteor { stroke-dasharray: 95 900; animation: shoot 6.5s linear infinite; }
+    .meteor-2 { stroke-dasharray: 75 900; animation: shoot 9s linear 3s infinite; }
+    .head-bob { animation: bob 3.4s ease-in-out infinite; transform-origin: 830px 230px; }
+    .hand-type-l { animation: typeL 0.42s ease-in-out infinite alternate; }
+    .hand-type-r { animation: typeR 0.38s ease-in-out infinite alternate; }
+    .cat-tail { animation: tailWag 2.6s ease-in-out infinite; transform-origin: 1055px 348px; }
     .cat-zzz { animation: floatZ 3.2s ease-out infinite; }
     .steam-1 { animation: steamRise 3s ease-out infinite; }
     .steam-2 { animation: steamRise 3s ease-out 1.4s infinite; }
-    .holo-float { animation: holoHover 4.5s ease-in-out infinite; }
-    .screen-line-1 { animation: codePulse 2.2s ease-in-out infinite; }
-    .screen-line-2 { animation: codePulse 2.8s ease-in-out 0.8s infinite; }
+    .holo-float { animation: holoHover 4.2s ease-in-out infinite; }
+    .screen-line-1 { animation: codePulse 2s ease-in-out infinite; }
+    .screen-line-2 { animation: codePulse 2.6s ease-in-out 0.8s infinite; }
     .cursor-blink { animation: blink 1s step-end infinite; }
-    .eq-1 { animation: eqBar 0.9s ease-in-out infinite alternate; transform-origin: 0 385px; }
-    .eq-2 { animation: eqBar 0.65s ease-in-out 0.2s infinite alternate; transform-origin: 0 385px; }
-    .eq-3 { animation: eqBar 1.1s ease-in-out 0.4s infinite alternate; transform-origin: 0 385px; }
+    .eq-1 { animation: eqBar 0.8s ease-in-out infinite alternate; transform-origin: 0 385px; }
+    .eq-2 { animation: eqBar 0.6s ease-in-out 0.2s infinite alternate; transform-origin: 0 385px; }
+    .eq-3 { animation: eqBar 1.0s ease-in-out 0.4s infinite alternate; transform-origin: 0 385px; }
+    .aurora-wave { animation: auroraShift 8s ease-in-out infinite alternate; }
 
-    @keyframes twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.95; } }
+    @keyframes twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
     @keyframes shoot { 0% { stroke-dashoffset: 900; opacity: 0; } 10% { opacity: 1; } 35% { stroke-dashoffset: 0; opacity: 0; } 100% { stroke-dashoffset: 0; opacity: 0; } }
-    @keyframes bob { 0%, 100% { transform: translateY(0px) rotate(0deg); } 50% { transform: translateY(4px) rotate(-1.5deg); } }
+    @keyframes bob { 0%, 100% { transform: translateY(0px) rotate(0deg); } 50% { transform: translateY(4px) rotate(-1.6deg); } }
     @keyframes typeL { 0% { transform: translateY(0px); } 100% { transform: translateY(-4px); } }
     @keyframes typeR { 0% { transform: translateY(-3px); } 100% { transform: translateY(1px); } }
-    @keyframes tailWag { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(14deg); } }
-    @keyframes floatZ { 0% { transform: translate(0, 0); opacity: 0; } 40% { opacity: 0.85; } 100% { transform: translate(12px, -22px); opacity: 0; } }
-    @keyframes steamRise { 0% { transform: translateY(0) scaleX(1); opacity: 0.75; } 100% { transform: translateY(-20px) scaleX(1.3); opacity: 0; } }
+    @keyframes tailWag { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(15deg); } }
+    @keyframes floatZ { 0% { transform: translate(0, 0); opacity: 0; } 40% { opacity: 0.9; } 100% { transform: translate(12px, -22px); opacity: 0; } }
+    @keyframes steamRise { 0% { transform: translateY(0) scaleX(1); opacity: 0.8; } 100% { transform: translateY(-20px) scaleX(1.3); opacity: 0; } }
     @keyframes holoHover { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
     @keyframes codePulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
     @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
     @keyframes eqBar { 0% { transform: scaleY(0.35); } 100% { transform: scaleY(1); } }
+    @keyframes auroraShift { 0% { opacity: 0.55; transform: translateX(-8px); } 100% { opacity: 0.9; transform: translateX(8px); } }
   </style>
 
   <defs>
-    <!-- Deep Warm Obsidian Background -->
     <linearGradient id="bgCanvas" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#09090b"/>
-      <stop offset="55%" stop-color="#121116"/>
-      <stop offset="100%" stop-color="#09090b"/>
+      <stop offset="0%" stop-color="#0b0914"/>
+      <stop offset="50%" stop-color="#151226"/>
+      <stop offset="100%" stop-color="#0d0b18"/>
     </linearGradient>
 
-    <!-- Night Window Sky -->
     <linearGradient id="nightSky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0f0c20"/>
-      <stop offset="65%" stop-color="#1e1638"/>
-      <stop offset="100%" stop-color="#3b2142"/>
+      <stop offset="0%" stop-color="#0e0b1c"/>
+      <stop offset="55%" stop-color="#1e173b"/>
+      <stop offset="100%" stop-color="#2e1d4a"/>
     </linearGradient>
 
-    <!-- Warm Sunset / Lo-fi Glow -->
-    <radialGradient id="warmGlow" cx="72%" cy="55%" r="45%">
-      <stop offset="0%" stop-color="#f97316" stop-opacity="0.18"/>
-      <stop offset="50%" stop-color="#e11d48" stop-opacity="0.07"/>
-      <stop offset="100%" stop-color="#09090b" stop-opacity="0"/>
+    <radialGradient id="auraVioletGlow" cx="72%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#a277ff" stop-opacity="0.24"/>
+      <stop offset="55%" stop-color="#f694ff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#0b0914" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Screen Backlight Glow -->
-    <radialGradient id="monitorGlow" cx="62%" cy="62%" r="28%">
-      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.24"/>
-      <stop offset="100%" stop-color="#fb923c" stop-opacity="0"/>
+    <radialGradient id="auraMintGlow" cx="25%" cy="80%" r="40%">
+      <stop offset="0%" stop-color="#61ffca" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#61ffca" stop-opacity="0"/>
     </radialGradient>
 
-    <linearGradient id="goldText" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#fafaf9"/>
-      <stop offset="55%" stop-color="#fed7aa"/>
-      <stop offset="100%" stop-color="#fb923c"/>
+    <linearGradient id="auraNameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#edecee"/>
+      <stop offset="38%" stop-color="#a277ff"/>
+      <stop offset="72%" stop-color="#61ffca"/>
+      <stop offset="100%" stop-color="#ffca85"/>
+    </linearGradient>
+
+    <linearGradient id="auroraBand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#61ffca" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#61ffca" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#a277ff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#f694ff" stop-opacity="0"/>
     </linearGradient>
 
     <linearGradient id="deskSurface" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#18151c"/>
-      <stop offset="50%" stop-color="#27202c"/>
-      <stop offset="100%" stop-color="#141118"/>
+      <stop offset="0%" stop-color="#151226"/>
+      <stop offset="50%" stop-color="#292244"/>
+      <stop offset="100%" stop-color="#151226"/>
     </linearGradient>
 
     <clipPath id="windowClip">
@@ -79,91 +85,84 @@
   </defs>
 
   <!-- Outer Frame -->
-  <rect width="1200" height="450" rx="20" fill="url(#bgCanvas)" stroke="#27272a" stroke-width="1.5"/>
-  <rect width="1200" height="450" rx="20" fill="url(#warmGlow)"/>
-  <rect width="1200" height="450" rx="20" fill="url(#monitorGlow)"/>
+  <rect width="1200" height="450" rx="22" fill="url(#bgCanvas)" stroke="#2e264d" stroke-width="1.5"/>
+  <rect width="1200" height="450" rx="22" fill="url(#auraVioletGlow)"/>
+  <rect width="1200" height="450" rx="22" fill="url(#auraMintGlow)"/>
 
-  <!-- Subtle Dot Matrix Texture on Left -->
-  <g fill="#3f3f46" opacity="0.35">
-    <circle cx="48" cy="44" r="1.2"/><circle cx="72" cy="44" r="1.2"/><circle cx="96" cy="44" r="1.2"/><circle cx="120" cy="44" r="1.2"/>
-    <circle cx="48" cy="68" r="1.2"/><circle cx="72" cy="68" r="1.2"/><circle cx="96" cy="68" r="1.2"/><circle cx="120" cy="68" r="1.2"/>
+  <!-- Decorative Aura Grid Dots -->
+  <g fill="#a277ff" opacity="0.28">
+    <circle cx="48" cy="44" r="1.4"/><circle cx="72" cy="44" r="1.4"/><circle cx="96" cy="44" r="1.4"/><circle cx="120" cy="44" r="1.4"/>
+    <circle cx="48" cy="68" r="1.4"/><circle cx="72" cy="68" r="1.4"/><circle cx="96" cy="68" r="1.4"/><circle cx="120" cy="68" r="1.4"/>
   </g>
 
-  <!-- ===================================================================== -->
-  <!-- LEFT SIDE: EDITORIAL MINIMAL TYPOGRAPHY & LO-FI PLAYER                -->
-  <!-- ===================================================================== -->
+  <!-- LEFT SIDE: AURA TYPOGRAPHY & LO-FI PLAYER -->
   <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-    <!-- Status Tag -->
-    <rect x="56" y="54" width="168" height="28" rx="14" fill="#18181b" stroke="#3f3f46" stroke-width="1"/>
-    <circle cx="74" cy="68" r="4" fill="#f97316" class="screen-line-1"/>
-    <text x="88" y="72" fill="#e4e4e7" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="1">LATE NIGHT CODING</text>
+    <rect x="56" y="54" width="182" height="28" rx="14" fill="#171429" stroke="#3b3163" stroke-width="1.2"/>
+    <circle cx="74" cy="68" r="4.5" fill="#61ffca" class="screen-line-1"/>
+    <text x="88" y="72" fill="#edecee" font-family="JetBrains Mono, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.2">AURA STUDIO // LIVE</text>
 
-    <!-- Main Name & Editorial Title -->
-    <text x="54" y="156" fill="url(#goldText)" font-size="68" font-weight="800" letter-spacing="-2.5">Quốc Tuấn.</text>
-    <text x="58" y="198" fill="#a1a1aa" font-size="22" font-weight="500" letter-spacing="-0.3">Creative Developer &amp; Software Craftsman</text>
+    <text x="54" y="156" fill="url(#auraNameGrad)" font-size="68" font-weight="800" letter-spacing="-2.5">Quốc Tuấn.</text>
+    <text x="58" y="198" fill="#c4b5fd" font-size="22" font-weight="600" letter-spacing="-0.3">Creative Developer &amp; Software Craftsman</text>
 
-    <!-- Minimalist Quote / Bio -->
-    <path d="M 58 224 L 58 272" stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
-    <text x="74" y="243" fill="#d4d4d8" font-size="15.5">Thích biến những ý tưởng phức tạp thành trải nghiệm</text>
-    <text x="74" y="266" fill="#d4d4d8" font-size="15.5">mượt mà, tối giản và mang dấu ấn cá nhân.</text>
+    <path d="M 58 224 L 58 272" stroke="#61ffca" stroke-width="3" stroke-linecap="round"/>
+    <text x="74" y="243" fill="#edecee" font-size="15.5">Thích biến những ý tưởng phức tạp thành trải nghiệm</text>
+    <text x="74" y="266" fill="#a29ec4" font-size="15.5">mượt mà, tối giản và mang đậm dấu ấn cá nhân.</text>
 
-    <!-- Aesthetic Discipline Tags -->
-    <g transform="translate(56, 298)" font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" fill="#d4d4d8">
-      <rect width="144" height="32" rx="6" fill="#18181b" stroke="#27272a"/>
-      <text x="18" y="20" fill="#fdba74">Web &amp; Mobile</text>
+    <!-- Aura Discipline Pills -->
+    <g transform="translate(56, 298)" font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" font-weight="600">
+      <rect width="144" height="32" rx="8" fill="#171429" stroke="#a277ff" stroke-opacity="0.5"/>
+      <text x="18" y="20" fill="#a277ff">Web &amp; Mobile</text>
 
-      <rect x="156" width="152" height="32" rx="6" fill="#18181b" stroke="#27272a"/>
-      <text x="174" y="20" fill="#f4f4f5">UI / UX Craft</text>
+      <rect x="156" width="152" height="32" rx="8" fill="#171429" stroke="#61ffca" stroke-opacity="0.5"/>
+      <text x="174" y="20" fill="#61ffca">UI / UX Craft</text>
 
-      <rect x="320" width="156" height="32" rx="6" fill="#18181b" stroke="#27272a"/>
-      <text x="338" y="20" fill="#a1a1aa">System Design</text>
+      <rect x="320" width="156" height="32" rx="8" fill="#171429" stroke="#ffca85" stroke-opacity="0.5"/>
+      <text x="338" y="20" fill="#ffca85">AI &amp; Systems</text>
     </g>
 
-    <!-- Lo-Fi Now Playing Widget & Equalizer -->
+    <!-- Aura Lo-Fi Player -->
     <g transform="translate(56, 354)">
-      <rect width="420" height="46" rx="10" fill="#121215" stroke="#27272a"/>
-      <!-- Animated Equalizer Bars -->
-      <rect x="18" y="370" width="3.5" height="16" rx="1.5" fill="#f97316" transform="translate(0, -354)" class="eq-1"/>
-      <rect x="25" y="366" width="3.5" height="20" rx="1.5" fill="#fb923c" transform="translate(0, -354)" class="eq-2"/>
-      <rect x="32" y="372" width="3.5" height="14" rx="1.5" fill="#fdba74" transform="translate(0, -354)" class="eq-3"/>
-      <text x="50" y="21" fill="#71717a" font-family="JetBrains Mono, Consolas, monospace" font-size="10" letter-spacing="1">NOW PLAYING // STUDIO VIBES</text>
-      <text x="50" y="36" fill="#e4e4e7" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="600">Midnight Coffee &amp; Clean Code — 02:45 AM</text>
+      <rect width="430" height="48" rx="11" fill="#141124" stroke="#2e264d" stroke-width="1.2"/>
+      <rect x="18" y="370" width="3.5" height="16" rx="1.5" fill="#61ffca" transform="translate(0, -354)" class="eq-1"/>
+      <rect x="25" y="366" width="3.5" height="20" rx="1.5" fill="#a277ff" transform="translate(0, -354)" class="eq-2"/>
+      <rect x="32" y="372" width="3.5" height="14" rx="1.5" fill="#f694ff" transform="translate(0, -354)" class="eq-3"/>
+      <text x="50" y="21" fill="#a277ff" font-family="JetBrains Mono, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1">NOW PLAYING // AURA SYNTHWAVE</text>
+      <text x="50" y="37" fill="#edecee" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="600">Midnight Coffee &amp; Clean Code — 02:45 AM</text>
     </g>
   </g>
 
-  <!-- ===================================================================== -->
-  <!-- RIGHT SIDE: ANIMATED CHARACTER CODING AT NIGHT + SLEEPING CAT         -->
-  <!-- ===================================================================== -->
-
-  <!-- 1. Large Studio Window with Night Cityscape, Moon & Shooting Stars -->
+  <!-- RIGHT SIDE: AURA NIGHT WINDOW + AURORA + CHARACTER + CAT -->
   <g clip-path="url(#windowClip)">
     <rect x="610" y="38" width="530" height="235" fill="url(#nightSky)"/>
 
+    <!-- Borealis Aurora Ribbon in Sky -->
+    <path d="M 600 115 Q 740 65, 880 110 T 1150 85 L 1150 145 Q 1010 170, 880 135 T 600 155 Z" fill="url(#auroraBand)" class="aurora-wave"/>
+
     <!-- Twinkling Stars -->
-    <g fill="#fef3c7" class="bg-star">
-      <circle cx="650" cy="68" r="1.5"/>
-      <circle cx="740" cy="55" r="1.8"/>
-      <circle cx="885" cy="72" r="1.3"/>
-      <circle cx="990" cy="60" r="2"/>
-      <circle cx="1095" cy="84" r="1.4"/>
+    <g fill="#61ffca" class="bg-star">
+      <circle cx="650" cy="68" r="1.6"/>
+      <circle cx="740" cy="55" r="1.9"/>
+      <circle cx="885" cy="72" r="1.4"/>
+      <circle cx="990" cy="60" r="2.1"/>
+      <circle cx="1095" cy="84" r="1.5"/>
     </g>
-    <g fill="#fed7aa" class="bg-star-2">
-      <circle cx="695" cy="95" r="1.6"/>
-      <circle cx="820" cy="52" r="1.4"/>
-      <circle cx="940" cy="92" r="1.7"/>
-      <circle cx="1045" cy="58" r="1.3"/>
+    <g fill="#f694ff" class="bg-star-2">
+      <circle cx="695" cy="95" r="1.7"/>
+      <circle cx="820" cy="52" r="1.5"/>
+      <circle cx="940" cy="92" r="1.8"/>
+      <circle cx="1045" cy="58" r="1.4"/>
     </g>
 
-    <!-- Shooting Stars / Meteors -->
-    <line x1="980" y1="45" x2="780" y2="145" stroke="#fed7aa" stroke-width="1.6" stroke-linecap="round" class="meteor"/>
-    <line x1="1110" y1="65" x2="930" y2="155" stroke="#fdba74" stroke-width="1.3" stroke-linecap="round" class="meteor-2"/>
+    <!-- Shooting Stars -->
+    <line x1="980" y1="45" x2="780" y2="145" stroke="#61ffca" stroke-width="1.8" stroke-linecap="round" class="meteor"/>
+    <line x1="1110" y1="65" x2="930" y2="155" stroke="#f694ff" stroke-width="1.5" stroke-linecap="round" class="meteor-2"/>
 
     <!-- Crescent Moon -->
-    <circle cx="1065" cy="92" r="24" fill="#fef3c7" opacity="0.92"/>
-    <circle cx="1055" cy="84" r="21" fill="#151028"/>
+    <circle cx="1065" cy="92" r="24" fill="#ffca85" opacity="0.95"/>
+    <circle cx="1055" cy="84" r="21" fill="#171230"/>
 
-    <!-- Distant City Silhouette -->
-    <g fill="#120d21">
+    <!-- Cyberpunk City Silhouette -->
+    <g fill="#110d24">
       <rect x="610" y="190" width="48" height="90"/>
       <rect x="652" y="168" width="38" height="112"/>
       <rect x="686" y="202" width="45" height="78"/>
@@ -174,111 +173,91 @@
       <rect x="1062" y="162" width="85" height="118"/>
     </g>
 
-    <!-- Warm City Lights -->
-    <g fill="#fbbf24" opacity="0.55">
+    <!-- Neon City Windows -->
+    <g fill="#61ffca" opacity="0.65">
       <rect x="662" y="180" width="6" height="4"/><rect x="674" y="192" width="6" height="4"/>
+      <rect x="974" y="164" width="7" height="4"/><rect x="990" y="178" width="7" height="4"/>
+    </g>
+    <g fill="#f694ff" opacity="0.65">
       <rect x="740" y="170" width="8" height="4"/><rect x="756" y="184" width="8" height="4"/><rect x="740" y="198" width="8" height="4"/>
-      <rect x="974" y="164" width="7" height="4"/><rect x="990" y="178" width="7" height="4"/><rect x="974" y="194" width="7" height="4"/>
       <rect x="1080" y="178" width="8" height="4"/><rect x="1098" y="190" width="8" height="4"/>
     </g>
   </g>
-  <!-- Window Frame Overlay -->
-  <rect x="610" y="38" width="530" height="235" rx="14" fill="none" stroke="#27272a" stroke-width="3"/>
-  <line x1="875" y1="38" x2="875" y2="273" stroke="#27272a" stroke-width="2.5"/>
+  <rect x="610" y="38" width="530" height="235" rx="14" fill="none" stroke="#3b3163" stroke-width="3"/>
+  <line x1="875" y1="38" x2="875" y2="273" stroke="#3b3163" stroke-width="2.5"/>
 
-  <!-- 2. Floating Hologram Code Snippet -->
+  <!-- Floating Hologram Code Card -->
   <g transform="translate(565, 118)">
     <g class="holo-float">
-      <rect width="135" height="74" rx="9" fill="#18181b" fill-opacity="0.9" stroke="#f97316" stroke-width="1.2"/>
-      <circle cx="14" cy="14" r="3" fill="#ef4444"/>
-      <circle cx="24" cy="14" r="3" fill="#f59e0b"/>
-      <circle cx="34" cy="14" r="3" fill="#10b981"/>
-      <rect x="14" y="28" width="58" height="5" rx="2.5" fill="#fb923c" class="screen-line-1"/>
-      <rect x="14" y="40" width="96" height="5" rx="2.5" fill="#71717a"/>
-      <rect x="24" y="52" width="72" height="5" rx="2.5" fill="#a1a1aa" class="screen-line-2"/>
-      <rect x="102" y="51" width="6" height="7" fill="#f97316" class="cursor-blink"/>
+      <rect width="138" height="76" rx="10" fill="#151226" fill-opacity="0.92" stroke="#a277ff" stroke-width="1.5"/>
+      <circle cx="14" cy="14" r="3.2" fill="#ff6767"/>
+      <circle cx="24" cy="14" r="3.2" fill="#ffca85"/>
+      <circle cx="34" cy="14" r="3.2" fill="#61ffca"/>
+      <rect x="14" y="28" width="62" height="5" rx="2.5" fill="#a277ff" class="screen-line-1"/>
+      <rect x="14" y="40" width="96" height="5" rx="2.5" fill="#61ffca"/>
+      <rect x="24" y="52" width="72" height="5" rx="2.5" fill="#f694ff" class="screen-line-2"/>
+      <rect x="102" y="51" width="6" height="7" fill="#ffca85" class="cursor-blink"/>
     </g>
   </g>
 
-  <!-- 3. Developer Character (Hoodie + Headphones + Bobbing Head) -->
+  <!-- Developer Character -->
   <g>
-    <!-- Gaming / Studio Chair Backrest -->
-    <rect x="785" y="198" width="96" height="145" rx="24" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="785" y="198" width="96" height="145" rx="24" fill="#171329" stroke="#3b3163" stroke-width="2"/>
+    <path d="M 762 345 C 766 268, 898 268, 902 345 Z" fill="#231d3d" stroke="#a277ff" stroke-width="1.5"/>
+    <path d="M 800 280 Q 832 302 864 280" fill="none" stroke="#61ffca" stroke-width="3" stroke-linecap="round"/>
 
-    <!-- Torso / Warm Charcoal Hoodie -->
-    <path d="M 762 345 C 766 268, 898 268, 902 345 Z" fill="#27272a" stroke="#3f3f46" stroke-width="1.5"/>
-    <!-- Hoodie Collar & Accent Stripes -->
-    <path d="M 800 280 Q 832 302 864 280" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round"/>
-
-    <!-- Animated Head + Headphones -->
     <g class="head-bob">
-      <!-- Neck -->
-      <rect x="820" y="254" width="24" height="24" rx="8" fill="#eab308" opacity="0.85"/>
-      <!-- Head Base -->
-      <circle cx="832" cy="216" r="42" fill="#fde047" opacity="0.12"/>
+      <rect x="820" y="254" width="24" height="24" rx="8" fill="#f5d0a9"/>
+      <circle cx="832" cy="216" r="43" fill="#a277ff" opacity="0.18"/>
       <circle cx="832" cy="216" r="38" fill="#f5d0a9"/>
-      <!-- Stylized Messy Hair -->
-      <path d="M 790 214 C 786 172, 828 162, 858 172 C 878 178, 882 204, 870 218 C 864 198, 845 190, 824 194 C 806 196, 796 206, 790 214 Z" fill="#18181b"/>
-      <path d="M 805 176 L 794 164 L 818 170 Z" fill="#18181b"/>
-      <path d="M 832 170 L 838 156 L 850 172 Z" fill="#18181b"/>
+      <path d="M 790 214 C 786 172, 828 162, 858 172 C 878 178, 882 204, 870 218 C 864 198, 845 190, 824 194 C 806 196, 796 206, 790 214 Z" fill="#161324"/>
+      <path d="M 805 176 L 794 164 L 818 170 Z" fill="#161324"/>
+      <path d="M 832 170 L 838 156 L 850 172 Z" fill="#161324"/>
 
-      <!-- Glasses Frames (Reflecting Monitor Glow) -->
-      <rect x="802" y="210" width="22" height="13" rx="3" fill="#fb923c" fill-opacity="0.25" stroke="#18181b" stroke-width="2"/>
-      <rect x="832" y="210" width="22" height="13" rx="3" fill="#fb923c" fill-opacity="0.25" stroke="#18181b" stroke-width="2"/>
-      <line x1="824" y1="215" x2="832" y2="215" stroke="#18181b" stroke-width="2"/>
+      <!-- Glasses Reflecting Cyan/Violet Screen -->
+      <rect x="802" y="210" width="22" height="13" rx="3" fill="#61ffca" fill-opacity="0.35" stroke="#161324" stroke-width="2"/>
+      <rect x="832" y="210" width="22" height="13" rx="3" fill="#61ffca" fill-opacity="0.35" stroke="#161324" stroke-width="2"/>
+      <line x1="824" y1="215" x2="832" y2="215" stroke="#161324" stroke-width="2"/>
 
-      <!-- Studio Over-Ear Headphones -->
-      <path d="M 790 216 A 43 43 0 0 1 874 216" fill="none" stroke="#e4e4e7" stroke-width="6" stroke-linecap="round"/>
-      <rect x="781" y="202" width="13" height="28" rx="6.5" fill="#f97316" stroke="#18181b" stroke-width="1.5"/>
-      <rect x="870" y="202" width="13" height="28" rx="6.5" fill="#f97316" stroke="#18181b" stroke-width="1.5"/>
+      <!-- Aura Headphones -->
+      <path d="M 790 216 A 43 43 0 0 1 874 216" fill="none" stroke="#edecee" stroke-width="6" stroke-linecap="round"/>
+      <rect x="781" y="202" width="13" height="28" rx="6.5" fill="#a277ff" stroke="#61ffca" stroke-width="1.5"/>
+      <rect x="870" y="202" width="13" height="28" rx="6.5" fill="#a277ff" stroke="#61ffca" stroke-width="1.5"/>
     </g>
 
-    <!-- Typing Hands -->
     <circle cx="776" cy="340" r="9" fill="#f5d0a9" class="hand-type-l"/>
     <circle cx="815" cy="340" r="9" fill="#f5d0a9" class="hand-type-r"/>
   </g>
 
-  <!-- 4. Ultrawide Curved Monitor & Laptop on Desk -->
+  <!-- Monitor -->
   <g>
-    <!-- Monitor Stand -->
-    <rect x="716" y="318" width="16" height="30" fill="#3f3f46"/>
-    <path d="M 692 346 L 756 346" stroke="#52525b" stroke-width="5" stroke-linecap="round"/>
-
-    <!-- Monitor Screen Frame (Back View with Neon Rim) -->
-    <rect x="635" y="226" width="180" height="98" rx="10" fill="#18181b" stroke="#fb923c" stroke-width="2"/>
-    <!-- Glowing Brand Logo on Back of Monitor -->
-    <circle cx="725" cy="275" r="10" fill="#f97316" opacity="0.85" class="screen-line-1"/>
-    <path d="M 655 244 H 705 M 655 306 H 795" stroke="#27272a" stroke-width="3" stroke-linecap="round"/>
+    <rect x="716" y="318" width="16" height="30" fill="#2e264d"/>
+    <path d="M 692 346 L 756 346" stroke="#4c3f7d" stroke-width="5" stroke-linecap="round"/>
+    <rect x="635" y="226" width="180" height="98" rx="10" fill="#141122" stroke="#61ffca" stroke-width="2"/>
+    <circle cx="725" cy="275" r="10" fill="#a277ff" opacity="0.9" class="screen-line-1"/>
+    <path d="M 655 244 H 705 M 655 306 H 795" stroke="#2e264d" stroke-width="3" stroke-linecap="round"/>
   </g>
 
-  <!-- 5. Steaming Coffee Mug -->
+  <!-- Coffee Mug -->
   <g transform="translate(918, 314)">
-    <!-- Steam Wisps -->
-    <path d="M 10 -4 Q 4 -14 14 -22" fill="none" stroke="#e4e4e7" stroke-width="2" stroke-linecap="round" class="steam-1"/>
-    <path d="M 20 -2 Q 26 -12 16 -22" fill="none" stroke="#e4e4e7" stroke-width="2" stroke-linecap="round" class="steam-2"/>
-    <!-- Mug Body -->
-    <rect x="0" y="2" width="28" height="30" rx="5" fill="#f97316"/>
-    <path d="M 28 8 C 36 8, 36 24, 28 24" fill="none" stroke="#f97316" stroke-width="3.5"/>
-    <rect x="3" y="6" width="22" height="4" rx="2" fill="#fed7aa" opacity="0.6"/>
+    <path d="M 10 -4 Q 4 -14 14 -22" fill="none" stroke="#61ffca" stroke-width="2" stroke-linecap="round" class="steam-1"/>
+    <path d="M 20 -2 Q 26 -12 16 -22" fill="none" stroke="#f694ff" stroke-width="2" stroke-linecap="round" class="steam-2"/>
+    <rect x="0" y="2" width="28" height="30" rx="5" fill="#a277ff"/>
+    <path d="M 28 8 C 36 8, 36 24, 28 24" fill="none" stroke="#a277ff" stroke-width="3.5"/>
+    <rect x="3" y="6" width="22" height="4" rx="2" fill="#61ffca" opacity="0.8"/>
   </g>
 
-  <!-- 6. Sleeping Companion Cat on Desk Corner -->
+  <!-- Sleeping Companion Cat -->
   <g>
-    <!-- Cat Body Curled Up -->
-    <ellipse cx="1026" cy="336" rx="34" ry="18" fill="#18181b" stroke="#52525b" stroke-width="1.5"/>
-    <!-- Cat Head & Ears -->
-    <circle cx="998" cy="332" r="14" fill="#18181b" stroke="#52525b" stroke-width="1.5"/>
-    <polygon points="987,322 991,309 999,320" fill="#18181b" stroke="#52525b" stroke-width="1.2"/>
-    <polygon points="1001,320 1008,309 1011,322" fill="#18181b" stroke="#52525b" stroke-width="1.2"/>
-    <!-- Closed Sleeping Eyes -->
-    <path d="M 991 333 Q 995 336 999 333" fill="none" stroke="#fb923c" stroke-width="1.5" stroke-linecap="round"/>
-    <!-- Animated Wagging Tail -->
-    <path d="M 1055 342 C 1078 342, 1086 322, 1074 314" fill="none" stroke="#52525b" stroke-width="5" stroke-linecap="round" class="cat-tail"/>
-    <!-- Floating Zzz -->
-    <text x="1008" y="302" fill="#fdba74" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" class="cat-zzz">z</text>
-    <text x="1020" y="290" fill="#fb923c" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700" class="cat-zzz">Z</text>
+    <ellipse cx="1026" cy="336" rx="34" ry="18" fill="#171329" stroke="#a277ff" stroke-width="1.5"/>
+    <circle cx="998" cy="332" r="14" fill="#171329" stroke="#a277ff" stroke-width="1.5"/>
+    <polygon points="987,322 991,309 999,320" fill="#171329" stroke="#a277ff" stroke-width="1.2"/>
+    <polygon points="1001,320 1008,309 1011,322" fill="#171329" stroke="#a277ff" stroke-width="1.2"/>
+    <path d="M 991 333 Q 995 336 999 333" fill="none" stroke="#61ffca" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 1055 342 C 1078 342, 1086 322, 1074 314" fill="none" stroke="#a277ff" stroke-width="5" stroke-linecap="round" class="cat-tail"/>
+    <text x="1008" y="302" fill="#61ffca" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" class="cat-zzz">z</text>
+    <text x="1020" y="290" fill="#f694ff" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700" class="cat-zzz">Z</text>
   </g>
 
-  <!-- 7. Studio Desk Surface -->
-  <rect x="575" y="346" width="585" height="16" rx="6" fill="url(#deskSurface)" stroke="#3f3f46" stroke-width="1.2"/>
+  <rect x="575" y="346" width="585" height="16" rx="6" fill="url(#deskSurface)" stroke="#3b3163" stroke-width="1.2"/>
 </svg>
