@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="210" viewBox="0 0 860 210" role="img" aria-label="Space Invaders CI/CD Defense">
+  <style>
+    .ship-move { animation: shipPatrol 6s ease-in-out infinite; }
+    .laser-1 { animation: fireLaser1 6s linear infinite; }
+    .laser-2 { animation: fireLaser2 6s linear infinite; }
+    .laser-3 { animation: fireLaser3 6s linear infinite; }
+
+    .alien-1 { animation: hitAlien1 6s linear infinite; transform-box: fill-box; transform-origin: center; }
+    .alien-2 { animation: hitAlien2 6s linear infinite; transform-box: fill-box; transform-origin: center; }
+    .alien-3 { animation: hitAlien3 6s linear infinite; transform-box: fill-box; transform-origin: center; }
+
+    .boom-1 { animation: explode1 6s linear infinite; transform-box: fill-box; transform-origin: center; }
+    .boom-2 { animation: explode2 6s linear infinite; transform-box: fill-box; transform-origin: center; }
+    .boom-3 { animation: explode3 6s linear infinite; transform-box: fill-box; transform-origin: center; }
+
+    @keyframes shipPatrol {
+      0%, 100% { transform: translateX(180px); }
+      33% { transform: translateX(410px); }
+      66% { transform: translateX(640px); }
+    }
+    @keyframes fireLaser1 {
+      0%, 6% { transform: translate(196px, 155px); opacity: 0; }
+      8% { transform: translate(196px, 145px); opacity: 1; }
+      15% { transform: translate(196px, 65px); opacity: 1; }
+      16%, 100% { transform: translate(196px, 50px); opacity: 0; }
+    }
+    @keyframes hitAlien1 {
+      0%, 14% { opacity: 1; transform: scale(1); }
+      16%, 90% { opacity: 0; transform: scale(0.2); }
+      95%, 100% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes explode1 {
+      0%, 14% { opacity: 0; transform: scale(0.4); }
+      16%, 24% { opacity: 1; transform: scale(1.25); }
+      26%, 100% { opacity: 0; transform: scale(1.6); }
+    }
+    @keyframes fireLaser2 {
+      0%, 36% { transform: translate(426px, 155px); opacity: 0; }
+      38% { transform: translate(426px, 145px); opacity: 1; }
+      46% { transform: translate(426px, 65px); opacity: 1; }
+      47%, 100% { transform: translate(426px, 50px); opacity: 0; }
+    }
+    @keyframes hitAlien2 {
+      0%, 45% { opacity: 1; transform: scale(1); }
+      47%, 90% { opacity: 0; transform: scale(0.2); }
+      95%, 100% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes explode2 {
+      0%, 45% { opacity: 0; transform: scale(0.4); }
+      47%, 55% { opacity: 1; transform: scale(1.25); }
+      57%, 100% { opacity: 0; transform: scale(1.6); }
+    }
+    @keyframes fireLaser3 {
+      0%, 66% { transform: translate(656px, 155px); opacity: 0; }
+      68% { transform: translate(656px, 145px); opacity: 1; }
+      76% { transform: translate(656px, 65px); opacity: 1; }
+      77%, 100% { transform: translate(656px, 50px); opacity: 0; }
+    }
+    @keyframes hitAlien3 {
+      0%, 75% { opacity: 1; transform: scale(1); }
+      77%, 92% { opacity: 0; transform: scale(0.2); }
+      96%, 100% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes explode3 {
+      0%, 75% { opacity: 0; transform: scale(0.4); }
+      77%, 85% { opacity: 1; transform: scale(1.25); }
+      87%, 100% { opacity: 0; transform: scale(1.6); }
+    }
+  </style>
+
+  <rect width="860" height="210" rx="16" fill="#0d0b18" stroke="#2e264d" stroke-width="1.5"/>
+  <rect x="20" y="14" width="820" height="32" rx="7" fill="#141124" stroke="#2e264d"/>
+  <text x="36" y="34" fill="#61ffca" font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" font-weight="700">SPACE INVADERS // CI-CD PRODUCTION DEFENSE</text>
+  <text x="545" y="34" fill="#ffca85" font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" font-weight="700">WEAPON: <tspan fill="#a277ff">AUTO-TEST LASER</tspan></text>
+  <text x="740" y="34" fill="#f694ff" font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" font-weight="700">WAVE 09</text>
+
+  <g transform="translate(180, 62)">
+    <g class="alien-1">
+      <rect x="4" y="0" width="24" height="18" rx="4" fill="#ff6767"/>
+      <rect x="0" y="6" width="32" height="8" rx="2" fill="#ff6767"/>
+      <rect x="7" y="5" width="5" height="5" fill="#0d0b18"/>
+      <rect x="20" y="5" width="5" height="5" fill="#0d0b18"/>
+      <text x="-8" y="32" fill="#ff6767" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="700">500_ERR</text>
+    </g>
+    <g class="boom-1" font-family="JetBrains Mono, monospace" font-size="11" font-weight="800" fill="#61ffca">
+      <circle cx="16" cy="10" r="16" fill="none" stroke="#61ffca" stroke-width="2" stroke-dasharray="4 4"/>
+      <text x="-12" y="14">FIXED +100</text>
+    </g>
+  </g>
+
+  <g transform="translate(410, 62)">
+    <g class="alien-2">
+      <rect x="4" y="0" width="24" height="18" rx="4" fill="#f694ff"/>
+      <rect x="0" y="6" width="32" height="8" rx="2" fill="#f694ff"/>
+      <rect x="7" y="5" width="5" height="5" fill="#0d0b18"/>
+      <rect x="20" y="5" width="5" height="5" fill="#0d0b18"/>
+      <text x="-14" y="32" fill="#f694ff" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="700">SQL_INJECT</text>
+    </g>
+    <g class="boom-2" font-family="JetBrains Mono, monospace" font-size="11" font-weight="800" fill="#ffca85">
+      <circle cx="16" cy="10" r="16" fill="none" stroke="#ffca85" stroke-width="2" stroke-dasharray="4 4"/>
+      <text x="-16" y="14">BLOCKED +250</text>
+    </g>
+  </g>
+
+  <g transform="translate(640, 62)">
+    <g class="alien-3">
+      <rect x="4" y="0" width="24" height="18" rx="4" fill="#a277ff"/>
+      <rect x="0" y="6" width="32" height="8" rx="2" fill="#a277ff"/>
+      <rect x="7" y="5" width="5" height="5" fill="#0d0b18"/>
+      <rect x="20" y="5" width="5" height="5" fill="#0d0b18"/>
+      <text x="-10" y="32" fill="#a277ff" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="700">DEADLOCK</text>
+    </g>
+    <g class="boom-3" font-family="JetBrains Mono, monospace" font-size="11" font-weight="800" fill="#61ffca">
+      <circle cx="16" cy="10" r="16" fill="none" stroke="#61ffca" stroke-width="2" stroke-dasharray="4 4"/>
+      <text x="-14" y="14">SOLVED +500</text>
+    </g>
+  </g>
+
+  <rect x="0" y="0" width="4" height="16" rx="2" fill="#61ffca" class="laser-1"/>
+  <rect x="0" y="0" width="4" height="16" rx="2" fill="#ffca85" class="laser-2"/>
+  <rect x="0" y="0" width="4" height="16" rx="2" fill="#f694ff" class="laser-3"/>
+
+  <g transform="translate(0, 162)">
+    <g class="ship-move">
+      <polygon points="16,0 32,22 22,18 16,24 10,18 0,22" fill="#61ffca" stroke="#a277ff" stroke-width="1.2"/>
+      <rect x="14" y="22" width="4" height="6" fill="#ffca85"/>
+    </g>
+  </g>
+  <line x1="28" y1="194" x2="832" y2="194" stroke="#2e264d" stroke-width="1.5"/>
+</svg>
