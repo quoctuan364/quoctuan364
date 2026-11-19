@@ -63,7 +63,7 @@
     }
 
     /* ===================================================================== */
-    /* 3. INTERACTIVE SYNTHWAVE PIANO & LAUNCHPAD (RIGHT PANEL)              */
+    /* 3. INTERACTIVE SYNTHWAVE PIANO AND LAUNCHPAD (RIGHT PANEL)              */
     /* ===================================================================== */
     .synth-key {
       cursor: pointer;
