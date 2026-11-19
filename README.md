@@ -19,7 +19,7 @@
   <br />
 
   <a href="https://quoctuan364.github.io/quoctuan364/" title="Bấm vào để mở sân chơi tương tác thực tế (Trỏ chuột né Bug, Đánh đàn Piano, Chơi Rắn Săn Mồi)">
-    <img width="100%" src="./assets/aura-holodeck.svg?v=aura4" alt="Interactive Aura Holo-Deck — Click to Play Live" />
+    <img width="100%" src="./assets/aura-holodeck.svg?v=aura5" alt="Interactive Aura Holo-Deck — Click to Play Live" />
   </a>
 
   <br /><br />
