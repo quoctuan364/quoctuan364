@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 310" width="580" height="310" role="img" aria-labelledby="senTitle senDesc">
+  <title id="senTitle">Sentinel AI - Deterministic Code Security Review</title>
+  <desc id="senDesc">Animated product card previewing Sentinel AI PR audit workflow with static analysis scanline and SARIF 2.1.0 remediation patch.</desc>
+
+  <defs>
+    <linearGradient id="sastLaser" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0" />
+      <stop offset="50%" stop-color="#10B981" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </linearGradient>
+
+    <clipPath id="diffClip">
+      <rect x="24" y="122" width="532" height="128" rx="8" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+
+    @keyframes scanVertical {
+      0% { transform: translateY(-44px); opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translateY(134px); opacity: 0; }
+    }
+
+    @keyframes triagePulse {
+      0%, 100% { opacity: 0.65; }
+      50% { opacity: 1; }
+    }
+
+    .scan-beam { animation: scanVertical 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+    .triage-chip { animation: triagePulse 2.4s ease-in-out infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .scan-beam, .triage-chip { animation: none; }
+      .scan-beam { opacity: 0; }
+    }
+  </style>
+
+  <!-- Card Shell -->
+  <rect x="1" y="1" width="578" height="308" rx="16" fill="#090D16" stroke="#1E293B" stroke-width="1.5" />
+  <line x1="16" y1="2" x2="564" y2="2" stroke="#F8FAFC" stroke-opacity="0.06" stroke-width="1" />
+
+  <!-- Top Row -->
+  <text x="24" y="34" class="mono" font-size="10.5" font-weight="700" letter-spacing="0.8" fill="#10B981">
+    02 · AI CODE SECURITY REVIEW
+  </text>
+  <rect x="462" y="18" width="94" height="24" rx="6" fill="#0F1623" stroke="#283548" stroke-width="1" />
+  <text x="509" y="34" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#CBD5E1">OPEN REPO &#x2197;</text>
+
+  <!-- Title & Description -->
+  <text x="24" y="64" class="sans" font-size="22" font-weight="800" letter-spacing="-0.5" fill="#F8FAFC">
+    Sentinel AI
+  </text>
+  <text x="24" y="84" class="sans" font-size="12.5" fill="#94A3B8">
+    Deterministic PR Security Audit with SAST &amp; OASIS SARIF 2.1.0
+  </text>
+
+  <!-- Miniature PR Audit UI -->
+  <rect x="24" y="100" width="532" height="150" rx="10" fill="#0F1623" stroke="#1E293B" stroke-width="1" />
+  <line x1="24" y1="122" x2="556" y2="122" stroke="#1E293B" stroke-width="1" />
+  <circle cx="38" cy="111" r="3" fill="#334155" />
+  <circle cx="49" cy="111" r="3" fill="#334155" />
+  <circle cx="60" cy="111" r="3" fill="#334155" />
+  <text x="76" y="114" class="mono" font-size="10" fill="#64748B">sentinel / pr-audit.sarif</text>
+  <text x="542" y="114" text-anchor="end" class="mono triage-chip" font-size="9.5" fill="#34D399">SARIF 2.1.0 · VERIFIED</text>
+
+  <!-- Code Diff & Animated Scanner -->
+  <g clip-path="url(#diffClip)">
+    <!-- Line 1 (neutral context) -->
+    <text x="38" y="142" class="mono" font-size="10" fill="#64748B">41   def execute_task(target_path: str):</text>
+
+    <!-- Line 2 (vulnerable removed) -->
+    <rect x="25" y="150" width="530" height="24" fill="#EF4444" fill-opacity="0.11" />
+    <rect x="25" y="150" width="3" height="24" fill="#EF4444" />
+    <text x="38" y="166" class="mono" font-size="10.5" fill="#FCA5A5">42 -   os.system(f"scan {target_path}")</text>
+    <rect x="424" y="154" width="118" height="16" rx="4" fill="#EF4444" fill-opacity="0.18" />
+    <text x="483" y="165" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#FCA5A5">CWE-78 DETECTED</text>
+
+    <!-- Line 3 (secure patch added) -->
+    <rect x="25" y="176" width="530" height="24" fill="#10B981" fill-opacity="0.11" />
+    <rect x="25" y="176" width="3" height="24" fill="#10B981" />
+    <text x="38" y="192" class="mono" font-size="10.5" fill="#6EE7B7">42 +   subprocess.run(["scan", target_path], shell=False)</text>
+    <rect x="444" y="180" width="98" height="16" rx="4" fill="#10B981" fill-opacity="0.18" />
+    <text x="493" y="191" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#34D399">PATCH APPLIED</text>
+
+    <!-- Fingerprint Footer Bar -->
+    <rect x="38" y="212" width="504" height="26" rx="5" fill="#090D16" stroke="#1E293B" stroke-width="1" />
+    <text x="50" y="229" class="mono" font-size="9.5" fill="#94A3B8">
+      <tspan fill="#10B981">fingerprint:</tspan> sha256:9f4a...d21c  |  <tspan fill="#CBD5E1">evidence-grounded triage</tspan>
+    </text>
+
+    <!-- Animated Scan Beam -->
+    <g class="scan-beam">
+      <rect x="25" y="122" width="530" height="36" fill="url(#sastLaser)" />
+      <line x1="25" y1="140" x2="555" y2="140" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.7" />
+    </g>
+  </g>
+
+  <!-- Bottom Tech Pills -->
+  <g>
+    <rect x="24" y="268" width="90" height="24" rx="6" fill="#0F1623" stroke="#1E293B" stroke-width="1" />
+    <text x="69" y="284" text-anchor="middle" class="mono" font-size="10" fill="#CBD5E1">Python 3.12</text>
+
+    <rect x="122" y="268" width="60" height="24" rx="6" fill="#0F1623" stroke="#1E293B" stroke-width="1" />
+    <text x="152" y="284" text-anchor="middle" class="mono" font-size="10" fill="#CBD5E1">SAST</text>
+
+    <rect x="190" y="268" width="92" height="24" rx="6" fill="#0F1623" stroke="#1E293B" stroke-width="1" />
+    <text x="236" y="284" text-anchor="middle" class="mono" font-size="10" fill="#34D399">SARIF 2.1.0</text>
+
+    <rect x="290" y="268" width="68" height="24" rx="6" fill="#0F1623" stroke="#1E293B" stroke-width="1" />
+    <text x="324" y="284" text-anchor="middle" class="mono" font-size="10" fill="#CBD5E1">Docker</text>
+  </g>
+</svg>

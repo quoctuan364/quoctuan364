@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-labelledby="execTitle execDesc">
+  <title id="execTitle">Quoc Tuan - Web, Mobile and AI Security Engineer</title>
+  <desc id="execDesc">Executive dark carbon GitHub profile header for Quoc Tuan featuring core engineering focus across Web, Mobile, AppSec, and AI Data Systems.</desc>
+
+  <defs>
+    <pattern id="dotMatrix" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1E293B" opacity="0.7" />
+    </pattern>
+
+    <radialGradient id="topAmbient" cx="78%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.09" />
+      <stop offset="65%" stop-color="#10B981" stop-opacity="0.015" />
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0" />
+      <stop offset="50%" stop-color="#10B981" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </linearGradient>
+
+    <clipPath id="frameClip">
+      <rect x="1" y="1" width="1198" height="218" rx="18" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+
+    @keyframes dotPulse {
+      0% { transform: scale(1); opacity: 0.75; }
+      70% { transform: scale(2.4); opacity: 0; }
+      100% { transform: scale(2.4); opacity: 0; }
+    }
+
+    @keyframes topSheen {
+      0% { transform: translateX(-320px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateX(1240px); opacity: 0; }
+    }
+
+    .status-pulse {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: dotPulse 2.8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+    }
+
+    .hairline-sheen {
+      animation: topSheen 6.5s ease-in-out infinite;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .status-pulse,
+      .hairline-sheen {
+        animation: none;
+      }
+      .hairline-sheen {
+        opacity: 0;
+      }
+    }
+  </style>
+
+  <!-- Outer Dark Carbon Frame -->
+  <rect x="1" y="1" width="1198" height="218" rx="18" fill="#090D16" stroke="#1E293B" stroke-width="1.5" />
+
+  <g clip-path="url(#frameClip)">
+    <rect x="0" y="0" width="1200" height="220" fill="url(#dotMatrix)" />
+    <rect x="0" y="0" width="1200" height="220" fill="url(#topAmbient)" />
+    <line x1="20" y1="2" x2="1180" y2="2" stroke="#F8FAFC" stroke-opacity="0.06" stroke-width="1" />
+    <rect x="0" y="1" width="240" height="2" fill="url(#sheenGrad)" class="hairline-sheen" />
+  </g>
+
+  <!-- LEFT PANE: Executive Identity -->
+  <g>
+    <circle cx="48" cy="40" r="3.5" fill="#10B981" class="status-pulse" />
+    <circle cx="48" cy="40" r="3.5" fill="#10B981" />
+    <text x="62" y="44" class="mono" font-size="11" font-weight="600" letter-spacing="0.8" fill="#94A3B8">
+      AVAILABLE FOR INTERNSHIP &amp; FRESHER · BINH DUONG, VN
+    </text>
+
+    <text x="40" y="98" class="sans" font-size="42" font-weight="800" letter-spacing="-1.2" fill="#F8FAFC">
+      Quốc Tuấn
+    </text>
+
+    <text x="40" y="130" class="sans" font-size="17" font-weight="600" fill="#CBD5E1">
+      Web &amp; Mobile Engineer <tspan fill="#334155"> · </tspan> <tspan fill="#10B981">AI &amp; Application Security</tspan>
+    </text>
+
+    <text x="40" y="164" class="sans" font-size="14" font-weight="400" fill="#94A3B8">
+      Shipping full-stack Next.js &amp; React Native platforms, pgvector RAG engines, and fail-closed security gateways.
+    </text>
+
+    <text x="40" y="194" class="mono" font-size="11" fill="#64748B">
+      @quoctuan364 <tspan fill="#334155"> / </tspan> 6 PINNED SYSTEMS <tspan fill="#334155"> / </tspan> <tspan fill="#94A3B8">PRODUCTION-FIRST ENGINEERING</tspan>
+    </text>
+  </g>
+
+  <!-- RIGHT PANE: Compact 3-Row Capability Ledger (1px dividers, no box clutter) -->
+  <line x1="748" y1="30" x2="748" y2="190" stroke="#1E293B" stroke-width="1" />
+
+  <g>
+    <text x="774" y="44" class="mono" font-size="10" font-weight="700" letter-spacing="0.9" fill="#10B981">
+      01 · WEB &amp; MOBILE
+    </text>
+    <text x="774" y="65" class="sans" font-size="13.5" font-weight="600" fill="#E2E8F0">
+      Next.js 15 · React 19 · React Native · TypeScript
+    </text>
+
+    <line x1="774" y1="84" x2="1158" y2="84" stroke="#1E293B" stroke-width="1" />
+
+    <text x="774" y="106" class="mono" font-size="10" font-weight="700" letter-spacing="0.9" fill="#10B981">
+      02 · APPSEC &amp; AI SYSTEMS
+    </text>
+    <text x="774" y="127" class="sans" font-size="13.5" font-weight="600" fill="#E2E8F0">
+      Python 3.12 · FastAPI · SARIF 2.1.0 · LLM Firewall
+    </text>
+
+    <line x1="774" y1="146" x2="1158" y2="146" stroke="#1E293B" stroke-width="1" />
+
+    <text x="774" y="168" class="mono" font-size="10" font-weight="700" letter-spacing="0.9" fill="#10B981">
+      03 · DATA &amp; INFRASTRUCTURE
+    </text>
+    <text x="774" y="189" class="sans" font-size="13.5" font-weight="600" fill="#E2E8F0">
+      PostgreSQL pgvector · Node.js · SQLite · Docker
+    </text>
+  </g>
+</svg>
